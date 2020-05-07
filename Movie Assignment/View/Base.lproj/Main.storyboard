@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="kbd-Vp-RK0">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home-->
+        <scene sceneID="KwD-Ui-k2S">
+            <objects>
+                <viewController id="kbd-Vp-RK0" customClass="HomeViewController" customModule="Movie_Assignment" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4Ta-Pp-Hja">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="bC5-xy-TMR">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" red="0.035840697589999998" green="0.062113784249999998" blue="0.090199775989999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="H8j-LI-ema">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.035840697589999998" green="0.062113784249999998" blue="0.090199775989999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="bC5-xy-TMR" firstAttribute="top" secondItem="2IQ-Qz-AdY" secondAttribute="top" id="GFb-2w-vcZ"/>
+                            <constraint firstItem="2IQ-Qz-AdY" firstAttribute="trailing" secondItem="bC5-xy-TMR" secondAttribute="trailing" id="IuB-dI-OkD"/>
+                            <constraint firstItem="2IQ-Qz-AdY" firstAttribute="bottom" secondItem="bC5-xy-TMR" secondAttribute="bottom" id="VC1-gr-Ntf"/>
+                            <constraint firstItem="bC5-xy-TMR" firstAttribute="leading" secondItem="2IQ-Qz-AdY" secondAttribute="leading" id="sPm-HY-EIZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="2IQ-Qz-AdY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="house.fill" catalog="system" id="ECf-Sy-Jzq">
+                        <color key="badgeColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBarItem>
+                    <navigationItem key="navigationItem" id="SNQ-dg-iV6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cqd-8m-OMX" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="884" y="138"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="house.fill" catalog="system" width="64" height="52"/>
+    </resources>
+</document>
