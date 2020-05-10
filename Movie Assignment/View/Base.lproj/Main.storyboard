@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="kbd-Vp-RK0">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -15,10 +15,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="bC5-xy-TMR">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
-                                <color key="backgroundColor" red="0.035840697589999998" green="0.062113784249999998" blue="0.090199775989999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="H8j-LI-ema">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="hrt-eu-Vp4">
+                                <rect key="frame" x="10" y="92" width="394" height="770"/>
+                                <color key="backgroundColor" red="0.028107248250000001" green="0.062007047240000002" blue="0.094121821219999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="yvn-QT-NJW">
                                     <size key="itemSize" width="50" height="50"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -26,13 +26,49 @@
                                 </collectionViewFlowLayout>
                                 <cells/>
                             </collectionView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w37-4k-ONT">
+                                <rect key="frame" x="0.0" y="54" width="35" height="28"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="8" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="All">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="categorySelectionButtonPressed:" destination="kbd-Vp-RK0" eventType="touchUpInside" id="ByD-Qb-nl0"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="hd4-Ao-pCh">
+                                <rect key="frame" x="0.0" y="85" width="130" height="0.0"/>
+                                <color key="backgroundColor" red="0.035840697589999998" green="0.062113784249999998" blue="0.090199775989999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="130" id="izZ-t5-J7y"/>
+                                    <constraint firstAttribute="height" id="z9e-Ld-sTL"/>
+                                </constraints>
+                                <color key="sectionIndexColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="categorySelectionCell" id="9i3-Bn-tQX">
+                                        <rect key="frame" x="0.0" y="28" width="130" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9i3-Bn-tQX" id="cyE-Ja-oUr">
+                                            <rect key="frame" x="0.0" y="0.0" width="130" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" red="0.035840697589999998" green="0.062113784249999998" blue="0.090199775989999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="bC5-xy-TMR" firstAttribute="top" secondItem="2IQ-Qz-AdY" secondAttribute="top" id="GFb-2w-vcZ"/>
-                            <constraint firstItem="2IQ-Qz-AdY" firstAttribute="trailing" secondItem="bC5-xy-TMR" secondAttribute="trailing" id="IuB-dI-OkD"/>
-                            <constraint firstItem="2IQ-Qz-AdY" firstAttribute="bottom" secondItem="bC5-xy-TMR" secondAttribute="bottom" id="VC1-gr-Ntf"/>
-                            <constraint firstItem="bC5-xy-TMR" firstAttribute="leading" secondItem="2IQ-Qz-AdY" secondAttribute="leading" id="sPm-HY-EIZ"/>
+                            <constraint firstItem="hd4-Ao-pCh" firstAttribute="leading" secondItem="2IQ-Qz-AdY" secondAttribute="leading" id="0oG-TG-Czo"/>
+                            <constraint firstItem="hrt-eu-Vp4" firstAttribute="top" secondItem="w37-4k-ONT" secondAttribute="bottom" constant="10" id="61p-fb-Bzp"/>
+                            <constraint firstItem="hd4-Ao-pCh" firstAttribute="top" secondItem="w37-4k-ONT" secondAttribute="bottom" constant="3" id="7wb-EL-TZf"/>
+                            <constraint firstItem="hrt-eu-Vp4" firstAttribute="leading" secondItem="2IQ-Qz-AdY" secondAttribute="leading" constant="10" id="DsO-Cb-zpW"/>
+                            <constraint firstItem="hrt-eu-Vp4" firstAttribute="bottom" secondItem="2IQ-Qz-AdY" secondAttribute="bottom" id="PPp-s1-Afi"/>
+                            <constraint firstItem="w37-4k-ONT" firstAttribute="leading" secondItem="2IQ-Qz-AdY" secondAttribute="leading" id="T9A-Mp-o1Z"/>
+                            <constraint firstItem="w37-4k-ONT" firstAttribute="top" secondItem="2IQ-Qz-AdY" secondAttribute="top" constant="10" id="sSC-Dd-1VL"/>
+                            <constraint firstAttribute="trailing" secondItem="hrt-eu-Vp4" secondAttribute="trailing" constant="10" id="xam-OB-kes"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="2IQ-Qz-AdY"/>
                     </view>
@@ -40,10 +76,16 @@
                         <color key="badgeColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBarItem>
                     <navigationItem key="navigationItem" id="SNQ-dg-iV6"/>
+                    <connections>
+                        <outlet property="categoryCollectionView" destination="hrt-eu-Vp4" id="mhw-Jx-K2V"/>
+                        <outlet property="categorySelectionButton" destination="w37-4k-ONT" id="bmj-5F-B7g"/>
+                        <outlet property="categorySelectionTableView" destination="hd4-Ao-pCh" id="kiV-9n-OXA"/>
+                        <outlet property="categorySelectionTableViewHeight" destination="z9e-Ld-sTL" id="R1J-DQ-mdw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cqd-8m-OMX" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="884" y="138"/>
+            <point key="canvasLocation" x="882.60869565217399" y="137.94642857142856"/>
         </scene>
     </scenes>
     <resources>

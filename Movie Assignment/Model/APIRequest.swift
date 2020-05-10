@@ -11,9 +11,7 @@ import Alamofire
 import SwiftyJSON
 class APIRequest{
     static let sharedAPIRequest = APIRequest()
-    private init(){
-        
-    }
+    private init(){}
     func requestData(fromUrl url:URL,withParameters parameters:[String:String],compilition:@escaping  (JSON?)->Void){
         
         Alamofire.request(url, method: .get, parameters: parameters).responseJSON(queue: DispatchQueue.global(qos: .userInitiated)) { (response) in

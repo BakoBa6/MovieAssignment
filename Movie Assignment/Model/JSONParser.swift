@@ -10,6 +10,7 @@ import Foundation
 import SwiftyJSON
 class JSONParser{
     static let sharedParser = JSONParser()
+    private init(){}
     func parseJSON(fromJSON Json:JSON?, compilition: @escaping (JSON?)->Void){
         compilition(Json)
     }

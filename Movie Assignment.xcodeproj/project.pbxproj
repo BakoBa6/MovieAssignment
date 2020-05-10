@@ -23,6 +23,19 @@
 		21009B902463433C00813502 /* URLS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21009B8F2463433C00813502 /* URLS.swift */; };
 		21009B922463468B00813502 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21009B912463468B00813502 /* APIRequest.swift */; };
 		21009B96246373F000813502 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21009B95246373F000813502 /* JSONParser.swift */; };
+		21009B9C2464AEB900813502 /* HomeViewController+CollectionViewDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21009B9B2464AEB900813502 /* HomeViewController+CollectionViewDatasource.swift */; };
+		21009B9F2464BAC300813502 /* UICollectionView+Cellsizing function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21009B9E2464BAC300813502 /* UICollectionView+Cellsizing function.swift */; };
+		21009BA22464C02C00813502 /* UICollectionView+delegateAndDataSource assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21009BA12464C02C00813502 /* UICollectionView+delegateAndDataSource assignment.swift */; };
+		21009BA92464D1E800813502 /* CategoryCell+CollectionViewDataSource extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21009BA82464D1E800813502 /* CategoryCell+CollectionViewDataSource extension.swift */; };
+		21009BAB2464D24000813502 /* CAtegoryCell+CollectionViewDelegate extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21009BAA2464D24000813502 /* CAtegoryCell+CollectionViewDelegate extension.swift */; };
+		21009BAD246582F300813502 /* AllCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21009BAC246582F300813502 /* AllCategories.swift */; };
+		214B87B2246789CE000EFBF0 /* TableView+SetDelegateAnddatasource Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214B87B1246789CE000EFBF0 /* TableView+SetDelegateAnddatasource Extension.swift */; };
+		214B87B424678AEB000EFBF0 /* HomeViewController+TableViewDelegate Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214B87B324678AEB000EFBF0 /* HomeViewController+TableViewDelegate Extension.swift */; };
+		214B87B624678B0E000EFBF0 /* HomeViewController+TableViewDataSource Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214B87B524678B0E000EFBF0 /* HomeViewController+TableViewDataSource Extension.swift */; };
+		215D42AB2467025A006A4154 /* CollectionView + RealodInMainThread Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215D42AA2467025A006A4154 /* CollectionView + RealodInMainThread Extension.swift */; };
+		215D42AE2467566D006A4154 /* Array + toDictionary Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215D42AD2467566D006A4154 /* Array + toDictionary Extension.swift */; };
+		2168DF652468125B005D2696 /* Bool+NigateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2168DF642468125B005D2696 /* Bool+NigateExtension.swift */; };
+		2168DF6924681732005D2696 /* TableView + RealodInMainThread Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2168DF6824681732005D2696 /* TableView + RealodInMainThread Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +56,19 @@
 		21009B8F2463433C00813502 /* URLS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLS.swift; sourceTree = "<group>"; };
 		21009B912463468B00813502 /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
 		21009B95246373F000813502 /* JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
+		21009B9B2464AEB900813502 /* HomeViewController+CollectionViewDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+CollectionViewDatasource.swift"; sourceTree = "<group>"; };
+		21009B9E2464BAC300813502 /* UICollectionView+Cellsizing function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Cellsizing function.swift"; sourceTree = "<group>"; };
+		21009BA12464C02C00813502 /* UICollectionView+delegateAndDataSource assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+delegateAndDataSource assignment.swift"; sourceTree = "<group>"; };
+		21009BA82464D1E800813502 /* CategoryCell+CollectionViewDataSource extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CategoryCell+CollectionViewDataSource extension.swift"; sourceTree = "<group>"; };
+		21009BAA2464D24000813502 /* CAtegoryCell+CollectionViewDelegate extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAtegoryCell+CollectionViewDelegate extension.swift"; sourceTree = "<group>"; };
+		21009BAC246582F300813502 /* AllCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCategories.swift; sourceTree = "<group>"; };
+		214B87B1246789CE000EFBF0 /* TableView+SetDelegateAnddatasource Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableView+SetDelegateAnddatasource Extension.swift"; sourceTree = "<group>"; };
+		214B87B324678AEB000EFBF0 /* HomeViewController+TableViewDelegate Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+TableViewDelegate Extension.swift"; sourceTree = "<group>"; };
+		214B87B524678B0E000EFBF0 /* HomeViewController+TableViewDataSource Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+TableViewDataSource Extension.swift"; sourceTree = "<group>"; };
+		215D42AA2467025A006A4154 /* CollectionView + RealodInMainThread Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CollectionView + RealodInMainThread Extension.swift"; sourceTree = "<group>"; };
+		215D42AD2467566D006A4154 /* Array + toDictionary Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array + toDictionary Extension.swift"; sourceTree = "<group>"; };
+		2168DF642468125B005D2696 /* Bool+NigateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bool+NigateExtension.swift"; sourceTree = "<group>"; };
+		2168DF6824681732005D2696 /* TableView + RealodInMainThread Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableView + RealodInMainThread Extension.swift"; sourceTree = "<group>"; };
 		7A6CA43B7F6EEA5A8E562DC7 /* Pods-Movie Assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movie Assignment.debug.xcconfig"; path = "Target Support Files/Pods-Movie Assignment/Pods-Movie Assignment.debug.xcconfig"; sourceTree = "<group>"; };
 		E48C940654376BF1F9D7FEF2 /* Pods-Movie Assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movie Assignment.release.xcconfig"; path = "Target Support Files/Pods-Movie Assignment/Pods-Movie Assignment.release.xcconfig"; sourceTree = "<group>"; };
 		F6888B95934D05D89DBA7380 /* Pods_Movie_Assignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Movie_Assignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,6 +107,7 @@
 		21009B6B24633F8E00813502 /* Movie Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				21009B9D2464BA9400813502 /* Build in classes extensions */,
 				21009B8224633FAE00813502 /* Controller */,
 				21009B8124633FA300813502 /* View */,
 				21009B8024633F9A00813502 /* Model */,
@@ -101,6 +128,7 @@
 				21009B8F2463433C00813502 /* URLS.swift */,
 				21009B912463468B00813502 /* APIRequest.swift */,
 				21009B95246373F000813502 /* JSONParser.swift */,
+				21009BAC246582F300813502 /* AllCategories.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -108,10 +136,8 @@
 		21009B8124633FA300813502 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				21009B832463405600813502 /* MovieCell.swift */,
-				21009B852463405E00813502 /* MovieCell.xib */,
-				21009B872463407500813502 /* CategoryCell.swift */,
-				21009B892463407C00813502 /* CategoryCell.xib */,
+				21009BA72464D1B600813502 /* Category cell */,
+				21009BA62464D1A600813502 /* Movie cell */,
 				21009B7224633F8E00813502 /* Main.storyboard */,
 			);
 			path = View;
@@ -120,9 +146,86 @@
 		21009B8224633FAE00813502 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				21009B7024633F8E00813502 /* HomeViewController.swift */,
+				21009B972464ADF500813502 /* HomeViewController */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		21009B972464ADF500813502 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				21009B7024633F8E00813502 /* HomeViewController.swift */,
+				21009B9B2464AEB900813502 /* HomeViewController+CollectionViewDatasource.swift */,
+				214B87B324678AEB000EFBF0 /* HomeViewController+TableViewDelegate Extension.swift */,
+				214B87B524678B0E000EFBF0 /* HomeViewController+TableViewDataSource Extension.swift */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		21009B9D2464BA9400813502 /* Build in classes extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2168DF6324681236005D2696 /* Bool+Extensions */,
+				214B87B02467899E000EFBF0 /* UITableView+Extension */,
+				215D42AC24675646006A4154 /* Array extensions */,
+				21009BA02464C00000813502 /* CollectionView extensions */,
+			);
+			path = "Build in classes extensions";
+			sourceTree = "<group>";
+		};
+		21009BA02464C00000813502 /* CollectionView extensions */ = {
+			isa = PBXGroup;
+			children = (
+				21009B9E2464BAC300813502 /* UICollectionView+Cellsizing function.swift */,
+				21009BA12464C02C00813502 /* UICollectionView+delegateAndDataSource assignment.swift */,
+				215D42AA2467025A006A4154 /* CollectionView + RealodInMainThread Extension.swift */,
+			);
+			path = "CollectionView extensions";
+			sourceTree = "<group>";
+		};
+		21009BA62464D1A600813502 /* Movie cell */ = {
+			isa = PBXGroup;
+			children = (
+				21009B832463405600813502 /* MovieCell.swift */,
+				21009B852463405E00813502 /* MovieCell.xib */,
+			);
+			path = "Movie cell";
+			sourceTree = "<group>";
+		};
+		21009BA72464D1B600813502 /* Category cell */ = {
+			isa = PBXGroup;
+			children = (
+				21009B872463407500813502 /* CategoryCell.swift */,
+				21009B892463407C00813502 /* CategoryCell.xib */,
+				21009BA82464D1E800813502 /* CategoryCell+CollectionViewDataSource extension.swift */,
+				21009BAA2464D24000813502 /* CAtegoryCell+CollectionViewDelegate extension.swift */,
+			);
+			path = "Category cell";
+			sourceTree = "<group>";
+		};
+		214B87B02467899E000EFBF0 /* UITableView+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				214B87B1246789CE000EFBF0 /* TableView+SetDelegateAnddatasource Extension.swift */,
+				2168DF6824681732005D2696 /* TableView + RealodInMainThread Extension.swift */,
+			);
+			path = "UITableView+Extension";
+			sourceTree = "<group>";
+		};
+		215D42AC24675646006A4154 /* Array extensions */ = {
+			isa = PBXGroup;
+			children = (
+				215D42AD2467566D006A4154 /* Array + toDictionary Extension.swift */,
+			);
+			path = "Array extensions";
+			sourceTree = "<group>";
+		};
+		2168DF6324681236005D2696 /* Bool+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2168DF642468125B005D2696 /* Bool+NigateExtension.swift */,
+			);
+			path = "Bool+Extensions";
 			sourceTree = "<group>";
 		};
 		81E6849F45B8DD5E4A07CC37 /* Pods */ = {
@@ -260,14 +363,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				21009B8C2463414900813502 /* MovieCategory.swift in Sources */,
+				21009BAD246582F300813502 /* AllCategories.swift in Sources */,
 				21009B8E2463415100813502 /* Movie.swift in Sources */,
+				21009BA22464C02C00813502 /* UICollectionView+delegateAndDataSource assignment.swift in Sources */,
 				21009B7124633F8E00813502 /* HomeViewController.swift in Sources */,
+				2168DF652468125B005D2696 /* Bool+NigateExtension.swift in Sources */,
 				21009B902463433C00813502 /* URLS.swift in Sources */,
 				21009B882463407500813502 /* CategoryCell.swift in Sources */,
+				214B87B2246789CE000EFBF0 /* TableView+SetDelegateAnddatasource Extension.swift in Sources */,
+				215D42AE2467566D006A4154 /* Array + toDictionary Extension.swift in Sources */,
+				21009BAB2464D24000813502 /* CAtegoryCell+CollectionViewDelegate extension.swift in Sources */,
+				2168DF6924681732005D2696 /* TableView + RealodInMainThread Extension.swift in Sources */,
+				21009B9C2464AEB900813502 /* HomeViewController+CollectionViewDatasource.swift in Sources */,
 				21009B6D24633F8E00813502 /* AppDelegate.swift in Sources */,
 				21009B96246373F000813502 /* JSONParser.swift in Sources */,
 				21009B842463405700813502 /* MovieCell.swift in Sources */,
+				21009B9F2464BAC300813502 /* UICollectionView+Cellsizing function.swift in Sources */,
+				215D42AB2467025A006A4154 /* CollectionView + RealodInMainThread Extension.swift in Sources */,
 				21009B922463468B00813502 /* APIRequest.swift in Sources */,
+				214B87B624678B0E000EFBF0 /* HomeViewController+TableViewDataSource Extension.swift in Sources */,
+				214B87B424678AEB000EFBF0 /* HomeViewController+TableViewDelegate Extension.swift in Sources */,
+				21009BA92464D1E800813502 /* CategoryCell+CollectionViewDataSource extension.swift in Sources */,
 				21009B6F24633F8E00813502 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

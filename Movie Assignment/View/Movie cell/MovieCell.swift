@@ -8,12 +8,15 @@
 
 import UIKit
 
-class CollectionViewCell: UICollectionViewCell {
-    @IBOutlet weak var posterImage: UIImageView!
-    
+class MovieCell: UICollectionViewCell {
+    @IBOutlet weak var moviePosterImage: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
+        setCollectionViewCorenerRadus()
+    }
+    //MARK: - helper methodes
+    private func setCollectionViewCorenerRadus(){
         self.layer.cornerRadius = 15
     }
-    
+
 }
